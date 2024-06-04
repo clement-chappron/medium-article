@@ -1,0 +1,64 @@
+body {
+  font-family: Lora;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: Montserrat;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+h2 {
+  font-weight: 400;
+  color: #a0a0a0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  display: block;
+}
+
+.mon-lien {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.mon-lien:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
